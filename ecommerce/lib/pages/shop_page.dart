@@ -35,9 +35,14 @@ class _ShopPageState extends State<ShopPage> {
                   child: const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
-                        "Pesquisar",
-                        style: TextStyle(color: Colors.grey),
+                      SizedBox(
+                        width: 650,
+                        height: 20,
+                        child: TextField(
+                          decoration: InputDecoration(
+                            hintText: 'Pesquisar',
+                          ),
+                        ),
                       ),
                       Icon(
                         Icons.search,

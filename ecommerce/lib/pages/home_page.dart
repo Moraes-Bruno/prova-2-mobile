@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
               padding: EdgeInsets.only(left:25),
               child: ListTile(
                 leading: Icon(Icons.home,color:Colors.white,size: 20,),
-                title: Text("Incio",style: TextStyle(color: Colors.white,fontSize: 20),),
+                title: Text("Inicio",style: TextStyle(color: Colors.white,fontSize: 20),),
               ),
             ),
             const Padding(
