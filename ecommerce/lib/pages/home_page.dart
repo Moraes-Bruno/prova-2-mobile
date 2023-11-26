@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black12,
+      backgroundColor: Colors.black,
       bottomNavigationBar: Padding(
           padding: const EdgeInsets.all(10),
           child: MyBottomNavBar(
@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
         elevation: 0,
         leading: Builder(builder: (context) {
           return IconButton(
-            icon: const Icon(Icons.menu, color: Colors.black),
+            icon: const Icon(Icons.menu, color: Colors.white),
             onPressed: () {
               Scaffold.of(context).openDrawer();
             },
@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
                 DrawerHeader(
                 child: Image.asset(
               'assets/images/4027496_15916-removebg-preview.png',
-              width: 180,
+              width: 160,
             )),
             const Padding(
               padding: EdgeInsets.all(12),

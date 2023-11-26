@@ -13,7 +13,7 @@ class HardwareTile extends StatelessWidget {
       margin: const EdgeInsets.only(left: 25),
       width: 280,
       decoration: BoxDecoration(
-          color: Colors.grey[100], borderRadius: BorderRadius.circular(25)),
+          color: Colors.grey[900], borderRadius: BorderRadius.circular(25)),
       child: Padding(
         padding: const EdgeInsets.all(12),
         child: Column(
@@ -26,6 +26,9 @@ class HardwareTile extends StatelessWidget {
               //descricao
               Text(
                 hardware.descricao,
+                style: TextStyle(
+                  color: Colors.white
+                ),
               ),
               //preco + detalhes
               Padding(
@@ -40,12 +43,15 @@ class HardwareTile extends StatelessWidget {
                         Text(
                           hardware.nome,
                           style: const TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 18),
+                              fontWeight: FontWeight.bold, 
+                              fontSize: 18,
+                              color: Colors.white
+                              ),
                         ),
                         const SizedBox(height: 5),
                         Text(
                           hardware.preco,
-                          style: const TextStyle(color: Colors.grey),
+                          style: const TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
                         )
                       ],
                     ),
@@ -70,5 +76,6 @@ class HardwareTile extends StatelessWidget {
             ]),
       ),
     );
+
   }
 }

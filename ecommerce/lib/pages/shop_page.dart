@@ -27,6 +27,7 @@ class _ShopPageState extends State<ShopPage> {
               children: [
                 //Barra de Pesquisa
                 Container(
+                  width: 600,
                   padding: const EdgeInsets.all(12),
                   margin: const EdgeInsets.symmetric(horizontal: 25),
                   decoration: BoxDecoration(
@@ -36,7 +37,7 @@ class _ShopPageState extends State<ShopPage> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       SizedBox(
-                        width: 650,
+                        width: 550,
                         height: 20,
                         child: TextField(
                           decoration: InputDecoration(
@@ -57,6 +58,10 @@ class _ShopPageState extends State<ShopPage> {
                   padding: EdgeInsets.symmetric(vertical: 25.0),
                   child: Text(
                     "Hardware Direto das Fabricantes",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 19,
+                    ),
                   ),
                 ),
 
@@ -70,16 +75,20 @@ class _ShopPageState extends State<ShopPage> {
                       Text(
                         "Mais Vendidos",
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 24),
+                            fontWeight: FontWeight.bold, 
+                            fontSize: 24,
+                            color: Colors.white),
                       ),
                       Row(
                         children: [
                           Text(
                             "Ver Todos ",
                             style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 20),
+                                fontWeight: FontWeight.bold, 
+                                fontSize: 20,
+                                color: Colors.white),
                           ),
-                          Icon(Icons.arrow_circle_right_sharp)
+                          Icon(Icons.arrow_circle_right_sharp, color: Colors.white,)
                         ],
                       ),
                     ],
