@@ -7,6 +7,7 @@ Repositorio voltado a prova da disciplina de Desenvolvimento para Dispositivos M
   <li>Bruno de Moraes Xavier da Silva</li>
   <li>Igor Altafini Teodoro</li>
   <li>João Victor Nascimento da Silva</li>
+  <li>Gustavo Ornaghi</li>
 </ul>
 
 <br>
